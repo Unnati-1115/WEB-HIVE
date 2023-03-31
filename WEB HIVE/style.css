@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+button {
+    width: 250px;
+    padding: 8px 0;
+    text-align: center;
+    margin: 40px 400px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: black;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+span {
+    background: #03adbc;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+button:hover span {
+    width: 100%;
+}
+
+button:hover {
+    border: none;
+}
+
+/*------------------------------------------NAvbar--------------------------------------------*/
+
+.navbar {
+    /* background-image: linear-gradient(to right, rgb(24, 24, 224), rgb(8, 8, 196)); */
+    /*background: #6589bc;*/
+    background: transparent;
+
+    padding: 0 !important;
+}
+
+.navbar-nav li {
+    padding: 0 50px;
+}
+
+.navbar-nav li a {
+    color: white !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+
+.navbar-toggler-icon {
+    color: white;
+
+    font-size: 30px !important;
+}
+
+.navbar-toggler {
+    outline: none !important;
+}
+
+/*---------------------------------------Parallax Text---------------------------------------------*/
+
+
+
+#text {
+    position: absolute;
+    font-size: 5.0em;
+    margin-top: 50px;
+    margin-left: 255px;
+    color: white;
+    white-space: nowrap;
+    z-index: 9;
+    right: -495px;
+}
+
+section img {
+    position: absolute;
+    object-fit: cover;
+}
+
+
+
+/*
+#im1 {
+    margin-left: 240px;
+    margin-top: 188px;
+    z-index: 10;
+} */
+
+/*
+#im2 {
+    margin-left: 275px;
+    margin-top: 160px;
+    z-index: 10;
+} */
+
+.sec {
+    position: relative;
+    top: 100px;
+
+}
+
+
+/*---------------------------------------------DESTINATIONS------------------------------------------------*/
+.dest {
+    position: relative;
+    top: 200px;
+}
+
+#Christimg {
+    padding-left: 0px;
+    margin-left: 0px;
+    width: 680px;
+    padding-right: 30%;
+}
+
+#christ {
+    margin-left: 150px;
+    padding-left: 20px;
+    font-size: 30px;
+}
+
+#Taj {
+    margin-left: 200px;
+    padding-left: 0px;
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+#Tajimg {
+    padding-left: 0px;
+    margin-left: 0px;
+    width: 670px;
+    margin-top: 100px;
+    padding-left: 8%;
+}
+
+#beachimg {
+    padding-left: 0px;
+    margin-left: 0px;
+    width: 670px;
+    margin-top: 100px;
+    padding-right: 8%;
+}
+
+#beach {
+    margin-left: 180px;
+    padding-left: 20px;
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+/*------------------------------------------FOOTER---------------------------------------------------------*/
